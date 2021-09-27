@@ -1,5 +1,6 @@
 # Matthew Hawley
-Link
+Instructions: https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor
+App: 
 
 Pic
 
