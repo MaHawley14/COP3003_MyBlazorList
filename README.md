@@ -1,24 +1,27 @@
-# Blazor Starter Application
+# Matthew Hawley
+Link
 
-This template contains an example [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly) client application, a C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) and a C# class library with shared code.
+Pic
 
-## Getting Started
+# Build a Blazor todo list app
+Add the todo list app to your existing project instead of creating a new one. 
 
-Create a repository from the [GitHub template](https://docs.github.com/en/enterprise/2.22/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and then clone it locally to your machine.
+If you really want to create a new project, when following the tutorial, for "Choose a Blazor hosting model" pick Blazor WebAssembly.
 
-Once you clone the project, open the solution in [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio](https://visualstudio.microsoft.com/vs/preview/vs2022/) and follow these steps:
+Review the instructions to Run a project in Visual Studio and Modify a project in Visual Studio above. 
 
-- In the **API** folder, copy `local.settings.example.json` to `local.settings.json`
-- Press **F5** to launch both the client application and the Functions API app. In Visual Studio, you can right click the solution and select both API project and client project as startup projects. 
+You can create the new page through Visual Studio by copying, pasting, and renaming an existing file or you can create the new page through the command prompt like in the tutorial instructions after going to your existing project folder using cd. 
 
-_Note: If you're using the Azure Functions CLI tools, refer to [the documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash) on how to enable CORS._
+Use the Build a Blazor todo list app tutorial to
 
-## Template Structure
+modify NavMenu.razor
 
-- **Client**: The Blazor WebAssembly sample application
-- **API**: A C# Azure Functions API, which the Blazor application will call
-- **Shared**: A C# class library with a shared data model between the Blazor and Functions application
+create Todo.razor
 
-## Deploy to Azure Static Web Apps
+create TodoItem.cs
 
-This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+Once you have it working locally, commit and push to GitHub.
+
+Update your Readme to look more professional and be more accurate and useful. Include a link to your deployed app and a link to the todo list tutorial. 
+
+Since your remote repository on GitHub now has been changed more recently than your local repository, do a Pull from the Git Changes tab in Visual Studio. 
