@@ -3,9 +3,9 @@
 <h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
 
 <ul>
-    @foreach (var todo in todos) // Done for each variable in the todo
+    @foreach (var todo in todos) // Done for each variable in the todo & Sets the Item todo Title to Done
     {
-        <li> // Sets the Item todo Title to Done
+        <li>
             <input type="checkbox" @bind="todo.IsDone" />
             <input @bind="todo.Title" />
         </li>
@@ -13,9 +13,9 @@
 </ul>
 
 <input placeholder="Something todo" @bind="newTodo" />
-<button @onclick="AddTodo">Add todo</button>    // Button to add an Item to list
+<button @onclick="AddTodo">Add todo</button>
 
-@code { // Creates a new To Do List
+@code { // Creates a new To Do List     ^^^ Button to add an Item to list
     private List<TodoItem> todos = new();
     private string newTodo;
 
