@@ -21,6 +21,14 @@ create Todo.razor
 
 create TodoItem.cs
 
+Add comments in Todo.razor and TodoItem.cs explaining what each line of code does. 
+
+Optional: You can change the icon in the NavMenu by changing span class="oi oi-list-rich"
+
+After "oi oi- you can put anything you find at https://icon-sets.iconify.design/oi/ like check
+
+Optional: You can change the icon that appears in the browser tab by changing favicon.ico in the wwwroot folder. You can use a site like https://favicomatic.com/ to make a favicon.
+
 Once you have it working locally, commit and push to GitHub.
 
 Update your Readme to look more professional and be more accurate and useful. Include a link to your deployed app and a link to the todo list tutorial. 
