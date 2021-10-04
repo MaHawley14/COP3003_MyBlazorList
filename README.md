@@ -1,8 +1,8 @@
 # Matthew Hawley
 Instructions: https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor
-App: 
+App: https://victorious-hill-04d547110.azurestaticapps.net/
 
-Pic
+![MyBlazorList](https://user-images.githubusercontent.com/62121542/135932042-f5d5ff9c-93cd-4a3a-b746-c8b9f85def6e.png)
 
 # Build a Blazor todo list app
 Add the todo list app to your existing project instead of creating a new one. 
